@@ -5,9 +5,7 @@ index_img: /img/road.jpg
 banner_img: /img/dolomites.jpg
 date: 0000-00-00 00:00:00
 tags:
-- linux
-- windows
-- mac
+- 简单难度
 ---
 
 
