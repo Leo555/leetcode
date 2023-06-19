@@ -1,9 +1,8 @@
 ---
 title: Hello World
 categories: Tools
-index_img: /img/road.jpg
-banner_img: /img/dolomites.jpg
 date: 0000-00-00 00:00:00
+hide: true
 tags:
 - linux
 - windows
@@ -48,7 +47,3 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
-
-### Image
-
-![](/img/road.jpg)
