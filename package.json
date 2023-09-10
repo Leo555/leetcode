@@ -18,6 +18,7 @@
   },
   "scripts": {
     "dev": "hexo clean && hexo server -p $PORT",
+    "start": "hexo clean && hexo server -p $PORT",
     "build": "hexo generate"
   }
 }
