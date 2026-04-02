@@ -78,3 +78,22 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# 资源压缩优化
+html_minifier:
+  enable: true
+  exclude:
+
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+js_minifier:
+  enable: true
+  mangle: true
+  exclude:
+    - '*.min.js'
+
+image_minifier:
+  enable: false
