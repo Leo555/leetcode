@@ -16,6 +16,9 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "hexo clean && hexo server -p $PORT",
     "start": "hexo clean && hexo server -p $PORT",
