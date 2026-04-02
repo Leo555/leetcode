@@ -17,7 +17,7 @@
     "hexo-server": "^2.0.0"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "hexo clean && hexo server -p $PORT",
