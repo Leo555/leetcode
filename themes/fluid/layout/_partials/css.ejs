@@ -1,5 +1,4 @@
-<link rel="preload" as="style" href="<%= url_join(theme.static_prefix.bootstrap, 'css/bootstrap.min.css') %>" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><%- css_ex(theme.static_prefix.bootstrap, 'css/bootstrap.min.css') %></noscript>
+<%- css_ex(theme.static_prefix.bootstrap, 'css/bootstrap.min.css') %>
 
 <% var css_snippets = deduplicate(page.css_snippets) %>
 <% for (var idx = 0; idx < css_snippets.length; idx++) { %>
