@@ -1,2 +1,7 @@
 custom_js:
   - /js/vercel-analytics.js
+custom_head: |-
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="baiduspider" content="index, follow">
+  <link rel="canonical" href="https://leetcode.lz5z.com/">

@@ -5,8 +5,20 @@
 # Site
 title: lz5z's leetcode
 subtitle: 人生苦短，我再睡会
-description: Lizhen's personal static blog.
+description: LeetCode 题解博客，包含 JavaScript 解题代码与思路解析，涵盖数组、字符串、链表、树、动态规划、回溯、贪心等算法专题。
 keywords:
+  - LeetCode
+  - 力扣
+  - 题解
+  - 算法
+  - JavaScript
+  - 数据结构
+  - 动态规划
+  - 深度优先搜索
+  - 广度优先搜索
+  - 回溯
+  - 贪心
+  - 二叉树
 author: tickli
 language: zh-CN
 timezone:
