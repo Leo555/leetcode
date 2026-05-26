@@ -91,6 +91,11 @@ theme: fluid
 deploy:
   type:
 
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: true
+
 # 资源压缩优化
 html_minifier:
   enable: true
