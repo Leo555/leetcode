@@ -9,10 +9,10 @@
 <% if (theme.lazyload.enable){ %>
   <% if (theme.lazyload.onlypost) { %>
     <% if (is_post() || is_page()) { %>
-      <%- js_ex(theme.static_prefix.internal_js, 'img-lazyload.js') %>
+      <%- js_ex(theme.static_prefix.internal_js, 'img-lazyload.js', 'defer') %>
     <% } %>
   <% } else { %>
-    <%- js_ex(theme.static_prefix.internal_js, 'img-lazyload.js') %>
+    <%- js_ex(theme.static_prefix.internal_js, 'img-lazyload.js', 'defer') %>
   <% } %>
 <% } %>
 
