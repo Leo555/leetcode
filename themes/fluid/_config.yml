@@ -419,6 +419,10 @@ open_graph:
   fb_admins:
   fb_app_id:
 
+# 全站分享卡片默认图（当文章未指定 og_img/index_img 时使用，如首页、归档页等）
+# Default og:image used when a page has no og_img/index_img (e.g. homepage, archive)
+default_og_image: /img/og-image.png
+
 
 #---------------------------
 # 页脚
